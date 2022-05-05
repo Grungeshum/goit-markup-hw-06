@@ -220,7 +220,7 @@
     <!-- Футер -->
     <footer class="main-footer">
       <div class="container">
-        <section class="footer-contacts">
+        <div class="footer-contacts">
           <a href="./index.html" class="logo">
             <span class="color-logo">Web</span>
             <span class="footer-logo">Studio</span>
@@ -236,9 +236,9 @@
               +38 096 111 11 11
             </a>
           </address>
-        </section>
+        </div>
 
-        <section class="footer-soc">
+        <div class="footer-soc">
           <span class="footer-titles">присоединяйтесь</span>
           <ul class="footer-soc-list list">
             <li class="footer-soc-item">
@@ -270,7 +270,22 @@
               </a>
             </li>
           </ul>
-        </section>
+        </div>
+
+        <div class="footer-action">
+          <p class="footer-titles">Подпишитесь на рассылку</p>
+          <form>
+            <div class="footer-subscription">
+              <input type="email" class="footer-input" name="user-mail" placeholder="E-mail" />
+              <button type="submit" class="button-footer">
+                Подписаться
+                <svg class="icon-subscription" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#iconsend-icon"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
