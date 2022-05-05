@@ -911,7 +911,7 @@ a {
 
 .modal-title {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -950,7 +950,6 @@ a {
   letter-spacing: 0.01em;
 
   color: var(--secondary-text-color);
-  margin-bottom: 4px;
 }
 
 .modal-text {
@@ -958,6 +957,7 @@ a {
   height: 120px;
   resize: none;
   padding: 12px 16px;
+  margin-top: 4px;
 
   font-weight: 400;
   font-size: 12px;
@@ -995,6 +995,8 @@ a {
 
 .modal-input-wrap {
   position: relative;
+
+  margin-top: 4px;
 }
 
 .check-text {
@@ -1027,6 +1029,8 @@ a {
 }
 
 .check {
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
